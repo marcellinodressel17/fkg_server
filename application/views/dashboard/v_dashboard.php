@@ -165,8 +165,8 @@
     <form action="">
 
         <h5 class="heading">ADA PERTANYAAN?</h5>
-
-        <a href="https://api.whatsapp.com/send?phone=+62895337261274&text=Hallo%20Eresta,%20saya%20berminat%20untuk%20menggunakan%20jasa%20anda.%20Saya%20menunggu%20resphone%20dari%20anda."><img src="<?= base_url('assets/logo/wa.png'); ?>" width="500px"></a>
+        
+        <a href="https://api.whatsapp.com/send?phone=+62895337261274&text=Hallo%20Eresta,%20saya%20berminat%20untuk%20menggunakan%20jasa%20anda.%20Saya%20menunggu%20resphone%20dari%20anda."><center><img src="<?= base_url('assets/logo/wa.png'); ?>" width="300px"></center></a>
 
     </form>
 
