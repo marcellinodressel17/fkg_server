@@ -1,3 +1,7 @@
+<div class="flash-data" data-flashdata="<?= $this->session->flashdata('flash'); ?>"></div>
+<?php if ($this->session->flashdata('flash')) : ?>
+<?php endif; ?>
+
 <section class="home" id="home">
 
     <div class="content">
@@ -67,12 +71,12 @@
 
 <div class="newsletter">
 
-    <h3>Subscribe Email Kami</h3>
-    <p>Jika anda ingin bekerja sama dengan kami untuk bisnis kalian, kalian dapat melakukan subscribe email melalui form yang ada dibawah.</p>
-    <form action="">
-        <input type="email" placeholder="Enter Your Email">
-        <input type="submit" value="Subscribe">
-    </form>
+    <h3>Follow And Subscribe</h3>
+    <p>Jangan lupa untuk follow dan subscribe social media kami. Untuk mendapatkan informasi lainnya, anda dapat melihat melalui sosial media di bawah ini.</p>
+    <a href="https://www.youtube.com/channel/UCk5BoAaX5rXpm3FgDY3yWfQ"><img src="<?= base_url('assets/logo/youtube.png'); ?>" alt="" width="190px"></a>&nbsp;&nbsp;
+    <a href="https://www.instagram.com/eresta.dev/"><img src="<?= base_url('assets/logo/instagram.png'); ?>" alt="" width="100px"></a>&nbsp;&nbsp;
+    <a href="https://www.tiktok.com/@erestadev"><img src="<?= base_url('assets/logo/tiktok.png'); ?>" alt="" width="100px"></a>
+  </div>
 
 </div>
 
@@ -104,42 +108,48 @@
     <div class="box-container">
 
         <div class="box">
-            <h3 class="title">Eresta Custome</h3>
-            <div class="price">Rp. 400.000<span></span></div>
+            <h3 class="title">Eresta Studying</h3>
+            <div class="price">Rp. 1.000.000 <span></span></div>
             <ul>
-                <li><i class="fas fa-check"></i> Full Dev(Edit Sesuai Permintaan) </li>
-                <li><i class="fas fa-check"></i> Free penambahan 1 metode </li>
-                <li><i class="fas fa-check"></i> Free Revisi 3x </li>
-                <li><i class="fas fa-check"></i> Free Meeting Sesuai Request Customer </li>
+            <li><i class="fas fa-check"></i> Full Dev(Pembuatan Dari 0) </li>
+                <li><i class="fas fa-check"></i> Max Request 2 Metode </li>
+                <li><i class="fas fa-check"></i> Free Revisi Program 3x </li>
                 <li><i class="fas fa-check"></i> Pengerjaan 1 Bulan </li>
+                <li><i class="fas fa-check"></i> Tampilan Lebih Responsif </li>
+                <li><i class="fas fa-times"></i> Perubahan UI </li>
+                <li><i class="fas fa-times"></i> Pemasangan Aplikasi Ke Hosting </li>
             </ul>
-            <a href="#" class="btn">Pesan Sekarang</a>
+            <a class="btn" id="BtnCustome">Selengkapnya</a>
         </div>
 
         <div class="box">
-            <h3 class="title">Eresta Full Dev</h3>
-            <div class="price">Rp. 500.000 <span></span></div>
+            <h3 class="title">Eresta Store</h3>
+            <div class="price">Rp. 2.000.000 <span></span></div>
             <ul>
-                <li><i class="fas fa-check"></i> Full Dev(Sesuai Permintaan) </li>
-                <li><i class="fas fa-check"></i> Free Revisi 3x </li>
-                <li><i class="fas fa-check"></i> Free Meeting Sesuai Request Customer </li>
-                <li><i class="fas fa-check"></i> Max Metode 2/Sistem </li>
+                <li><i class="fas fa-check"></i> Full Dev(Pembuatan Dari 0) </li>
+                <li><i class="fas fa-check"></i> Max Request 2 Metode </li>
+                <li><i class="fas fa-check"></i> Max Perubahan UI 2x </li>
                 <li><i class="fas fa-check"></i> Pengerjaan 1-2 Bulan </li>
+                <li><i class="fas fa-check"></i> Tampilan Lebih Responsif </li>
+                <li><i class="fas fa-check"></i> Free Meeting Update Terbaru </li>
+                <li><i class="fas fa-times"></i> Pemasangan Aplikasi Ke Hosting </li>
             </ul>
-            <a href="#" class="btn">Pesan Sekarang</a>
+            <a href="#" class="btn">Selengkapnya</a>
         </div>
 
         <div class="box">
             <h3 class="title">Eresta Business</h3>
-            <div class="price">Rp. 1.000.000<span></span></div>
+            <div class="price">Rp. 5.000.000<span></span></div>
             <ul>
-                <li><i class="fas fa-check"></i> Full Dev(Sesuai Permintaan) </li>
-                <li><i class="fas fa-check"></i> Bebas Revisi </li>
+                <li><i class="fas fa-check"></i> Full Dev(Pembuatan Dari 0) </li>
+                <li><i class="fas fa-check"></i> Free Hosting & Domain </li>
+                <li><i class="fas fa-check"></i> Max Request 3 Metode </li>
+                <li><i class="fas fa-check"></i> Pengerjaan 1-2 Bulan </li>
                 <li><i class="fas fa-check"></i> Free Meeting Sesuai Request Customer </li>
-                <li><i class="fas fa-check"></i> Free 2x Update UI </li>
-                <li><i class="fas fa-check"></i> Pengerjaan 2-3 Bulan </li>
+                <li><i class="fas fa-check"></i> Free Update UI </li>
+                <li><i class="fas fa-check"></i> Pemasangan Aplikasi Ke Hosting </li>
             </ul>
-            <a href="#" class="btn">Pesan Sekarang</a>
+            <a href="#" class="btn">Selengkapnya</a>
         </div>
 
     </div>
@@ -154,29 +164,9 @@
 
     <form action="">
 
-        <h4 class="heading">Hubungi Kami</h4>
+        <h5 class="heading">ADA PERTANYAAN?</h5>
 
-        <div class="inputBox">
-            <input type="text" required>
-            <label>Nama</label>
-        </div>
-
-        <div class="inputBox">
-            <input type="email" required>
-            <label>Email</label>
-        </div>
-
-        <div class="inputBox">
-            <input type="number" required>
-            <label>No. Handphone</label>
-        </div>
-
-        <div class="inputBox">
-            <textarea required name="" id="" cols="30" rows="10"></textarea>
-            <label>Pesan</label>
-        </div>
-
-        <input type="submit" class="btn" value="Kirim Pesan">
+        <a href="https://api.whatsapp.com/send?phone=+62895337261274&text=Hallo%20Eresta,%20saya%20berminat%20untuk%20menggunakan%20jasa%20anda.%20Saya%20menunggu%20resphone%20dari%20anda."><img src="<?= base_url('assets/logo/wa.png'); ?>" width="500px"></a>
 
     </form>
 
@@ -225,6 +215,52 @@
 
     </div>
 
-    <h1 class="credit"> &copy; copyright @ 2022 by Eresta Developer </h1>
+    <h3 class="credit"> &copy; copyright @ 2022 by Eresta Developer </h3>
+
+</div>
+
+<!-- The Modal Custome-->
+<div id="myModalCustome" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+  <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Paket Eresta Studying</h2>
+    </div>
+    <div class="modal-body">
+        <form action="<?= base_url('dashboard/add_customer1'); ?>" method="post">
+        <div class="row">
+            <div class="col-25">
+                <label for="full_name">Nama Lengkap</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="full_name" name="full_name" placeholder="Masukkan Nama Lengkap Anda..">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="telp">No. Telp</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="telp" name="telp" placeholder="Masukkan Nomor Telp Anda..">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="website_name">Nama Project</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="website_name" name="website_name" placeholder="Masukkan Nama Project Anda..">
+            </div>
+        </div>
+    </from>
+    </div>
+    <div class="modal-footer">
+      <div align="right">
+        <button class="btnx">Pesan Sekarang</button>
+      </div>
+    </div>
+  </div>
 
 </div>

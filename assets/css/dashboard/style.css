@@ -102,6 +102,10 @@ header label{
   opacity: 0;
 }
 
+.hcustomer{
+  display: flex;
+}
+
 .home{
   display: flex;
   align-items: center;
@@ -505,6 +509,23 @@ header label{
   padding: 1rem 0;
 }
 
+.hcustomer .content h3{
+  font-size: 4.5rem;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.hcustomer .content h3 span{
+  color: var(--primary);
+  text-transform: uppercase;
+}
+
+.hcustomer .content p{
+  font-size: 1.7rem;
+  color: #666;
+  padding: 1rem 0;
+}
+
 @media (max-width:1200px){
 
   html{
@@ -558,6 +579,10 @@ header label{
     content:'\f00d';
  }
 
+ .hcustomer{
+    flex-flow: column-reverse;
+ }
+
  .home{
     flex-flow: column-reverse;
  }
@@ -571,6 +596,14 @@ header label{
  }
 
  .home .content p{
+    font-size: 1.5rem;
+ }
+
+ .hcustomer .content h3{
+    font-size: 3.6rem;
+ }
+
+ .hcustomer .content p{
     font-size: 1.5rem;
  }
 
