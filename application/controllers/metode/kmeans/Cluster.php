@@ -10,7 +10,7 @@ class Cluster extends CI_Controller {
    }
 
   public function index(){
-    $this->load->view('cluster/cluster_view');
+    $this->load->view('kmeans/cluster_view');
   }
 
 }
