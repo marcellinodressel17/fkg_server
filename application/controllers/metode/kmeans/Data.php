@@ -9,13 +9,14 @@ class Data extends CI_Controller {
         $this->load->library('form_validation');
         $this->load->library(array('excel','session'));
         $this->load->model('m_data');
+        $this->session->keep_flashdata('message');
     }
 
   public function index(){
 
     $data['title'] = "Data Paket 1";
 
-    $this->db->join('daerah', 'daerah.idaerah = data.iddaerah');
+    // $this->db->join('daerah', 'daerah.idaerah = data.iddaerah');
     $kmeans['data_kmeans'] = $this->db->get('data');
 
     $this->load->view('metode/layout/header', $data);
@@ -94,15 +95,15 @@ class Data extends CI_Controller {
 				$highestColumn = $worksheet->getHighestColumn();	
 				for($row=5; $row<=$highestRow; $row++)
 				{
-					$iddaerah = $worksheet->getCellByColumnAndRow(1, $row)->getValue();
+					$nama_daerah = $worksheet->getCellByColumnAndRow(1, $row)->getValue();
 					$data1 = $worksheet->getCellByColumnAndRow(2, $row)->getValue();
 					$data2 = $worksheet->getCellByColumnAndRow(3, $row)->getValue();
 					$data3 = $worksheet->getCellByColumnAndRow(4, $row)->getValue();
 					$temp_data[] = array(
-						'iddaerah'	=> $iddaerah,
-						'data1'	    => $data1,
-						'data2'	    => $data2,
-						'data3'	    => $data3,
+						'nama_daerah'	  => $nama_daerah,
+						'data1'	        => $data1,
+						'data2'	        => $data2,
+						'data3'	        => $data3,
 					); 	
 				}
 			}
@@ -111,11 +112,12 @@ class Data extends CI_Controller {
 				$this->session->set_flashdata('status', '<span class="glyphicon glyphicon-ok"></span> Data Berhasil di Import ke Database');
 				redirect('metode/kmeans/data');
 			}else{
-				$this->session->set_flashdata('status', '<span class="glyphicon glyphicon-remove"></span> Terjadi Kesalahan');
+				$this->session->set_flashdata('message', 'Terjadi Kesalahan');
 				redirect('metode/kmeans/data/import_data');
 			}
 		}else{
-			echo "Tidak ada file yang masuk";
+			$this->session->set_flashdata('message', 'Terjadi Kesalahan');
+				redirect('metode/kmeans/data/import_data');
 		}
 	}
 

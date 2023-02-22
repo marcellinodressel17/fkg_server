@@ -8,7 +8,7 @@
     <main>
       <div class="container-fluid">
       <a href="<?= base_url("metode/kmeans/data/tambah_data"); ?>"><button class="btn btn-primary" type="button"><i class="fas fa-plus"></i> Tambah Data</button></a>
-      <a href="<?= base_url("metode/kmeans/data/import_data"); ?>"><button class="btn btn-default" type="button"><i class="fas fa-plus"></i> Import Data</button></a>
+      <!-- <a href="<?= base_url("metode/kmeans/data/import_data"); ?>"><button class="btn btn-default" type="button"><i class="fas fa-plus"></i> Import Data</button></a> -->
         <br><br>
         <form action="<?= base_url('metode/kmeans/data/deleteall_kmeans') ?>" method="POST">
             <table class="table table-bordered table_hover table-striped">

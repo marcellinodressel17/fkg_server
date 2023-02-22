@@ -2,158 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
     <title><?= $title; ?></title>
-    <link rel="icon" href="<?= base_url('assets/logo/icon.png'); ?>">
-
-    <!-- Font awesome cdn link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
-    <!-- custome css -->
-    <link rel="stylesheet" href="<?= base_url('assets/css/dashboard/style.css'); ?>">
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="<?= base_url('assets/css/customer/style.css') ?>">
 </head>
-
-<style>
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-}
-
-label {
-  padding: 15px 12px 12px 0;
-  display: inline-block;
-}
-
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-}
-
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.btnx{
-  display: inline-block;
-  margin-top: 1rem;
-  padding: .8rem 3rem;
-  border-radius: 5rem;
-  background: var(--gradient);
-  font-size: 1rem;
-  color: #fff;
-  cursor: pointer;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-  transition: all .3s linear;
-}
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; Location of the box
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  -webkit-animation-name: fadeIn; /* Fade in the background */
-  -webkit-animation-duration: 0.4s;
-  animation-name: fadeIn;
-  animation-duration: 0.4s
-}
-
-/* Modal Content */
-.modal-content {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 40%;
-  -webkit-animation-name: slideIn;
-  -webkit-animation-duration: 0.4s;
-  animation-name: slideIn;
-  animation-duration: 0.4s
-}
-
-/* The Close Button */
-.close {
-  color: white;
-  float: right;
-  font-size: 15px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.modal-header {
-  padding: 2px 16px;
-  background-color: #7380ec;
-  color: white;
-}
-
-.modal-body {padding: 2px 16px;}
-
-.modal-footer {
-  padding: 2px 16px;
-  background-color: #fff;
-  color: white;
-}
-
-/* Add Animation */
-@-webkit-keyframes slideIn {
-  from {bottom: -300px; opacity: 0} 
-  to {bottom: 0; opacity: 1}
-}
-
-@keyframes slideIn {
-  from {bottom: -300px; opacity: 0}
-  to {bottom: 0; opacity: 1}
-}
-
-@-webkit-keyframes fadeIn {
-  from {opacity: 0} 
-  to {opacity: 1}
-}
-
-@keyframes fadeIn {
-  from {opacity: 0} 
-  to {opacity: 1}
-}
-
-</style>
 
 <body>
 
-    <header>
-        <a href="#home"><img class="logo" src="<?= base_url('assets/logo/eresta_dev.png'); ?>"></a>
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <div class="brand-flex">
+                <img src="<?= base_url('assets/logo/icon.png') ?>" width="40px" alt="">
 
-        <input type="checkbox" id="menu-bar">
-        <label for="menu-bar" class="fas fa-bars"></label>
+                <div class="brand-icons">
+                    <span class="las la-bell"></span>
+                    <span class="las la-user-circle"></span>
+                </div>
+            </div>
+        </div>
 
-        <nav class="navbar">
-            <a href="<?= base_url('dashboard/index'); ?>">Home</a>
-        </nav>
-    </header>
+        <div class="sidebar-main">
+            <div class="sidebar-user">
+                <img src="<?= base_url('assets/user/user.png'); ?>" alt="">
+                <div>
+                    <h3>Laurent Bagaskara</h3>
+                    <span>bagaskara@gmail.com</span>
+                </div>
+            </div>
+
+            <div class="sidebar-menu">
+                <div class="menu-head">
+                    <span>Dashboard</span>
+                </div>
+                <ul>
+                    <li>
+                        <a href="<?= base_url('customer/customer/') ?>">
+                            <span class="las la-tasks"></span>
+                            My List
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="las la-user-circle"></span>
+                            My Profile
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="menu-head">
+                    <span>Application</span>
+                </div>
+                <ul>
+                    <li>
+                        <a href="">
+                            <span class="las la-handshake"></span>
+                            Agreement Letter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="las la-file-invoice"></span>
+                            Payment
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="las la-share-alt"></span>
+                            Social Media
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="las la-envelope"></span>
+                            Email
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="las la-address-card"></span>
+                            About Eresta Developer
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>

@@ -1,404 +1,291 @@
-<main class="main">
-
-  <!-- home -->
-  <section class="home section" id="home">
-    <div class="home__container container grid">
-      <div class="home__data">
-        <h1 class="home__title">
-          JASA <br> PENGEMBANGAN <br> MAUPUN PEMBUATAN WEBSITE
-        </h1>
-        <p class="home__description">
-          Kami Penyedia Jasa Untuk Pembuatan, Pengembangan, Dan Custome Website Sesuai Kebutuhan Anda 
-        </p>
-
-        <form action="" class="home__search">
-          <i class="bx bxs-map"></i>
-          <input type="search" placehorder="Search By Location" class="home__search-input">
-          <button class="button">Search</button>
-        </form>
-
-        <div class="home__value">
-          <div>
-            <h1 class="home__value-number">
-              100% <span></span>
-            </h1>
-            <span class="home__value-description">
-              Developer <br> Dari Awal Sampai Selesai
-            </span>
-          </div>
-
-          <div>
-            <h1 class="home__value-number">
-              100% <span></span>
-            </h1>
-            <span class="home__value-description">
-              Tanggung Jawab <br> Dalam Pembuatan Website Sampai Selesai
-            </span>
-          </div>
-
-          <div>
-            <h1 class="home__value-number">
-              Siap Membantu <span></span>
-            </h1>
-            <span class="home__value-description">
-              Bisnis Ataupun Tugas <br> Kami Siap Membantu Anda
-            </span>
-          </div>
-        </div>
-      </div>
-
-      <div class="home__images">
-        <div class="home__orbe"></div>
-
-        <div class="home__img">
-          <img src="<?= base_url('assets/logo/logo2.png') ?>" alt="">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- logos -->
-  <section class="logos section">
-    <div align="center">
-      <h2 class="section__title">Workflow Untuk Menggunakan Jasa Kami</h2>
-    </div>
-    <div class="logos__container container grid">
-      <div class="logos__img">
-        <img src="<?= base_url('assets/image/logodaftar.png'); ?>" alt="">
-      </div>
-      <div class="logos__img">
-        <img src="<?= base_url('assets/image/logopenawaran.png'); ?>" alt="">
-      </div>
-      <div class="logos__img">
-        <img src="<?= base_url('assets/image/logottd.png'); ?>" alt="">
-      </div>
-      <div class="logos__img">
-        <img src="<?= base_url('assets/image/logobekerja.png'); ?>" alt="">
-      </div>
-    </div>
-  </section>
-
-  <!-- popular -->
-  <section class="popular section" id="popular">
-    <div class="container">
-      <span class="section__subtitle">Our Customer</span>
-      <h2 class="section__title">
-          Portofolio Yang Sudah Menggunakan Jasa Kami<span>.</span>
-      </h2>
-
-      <div class="popular__container swiper">
-        <div class="swiper-wrapper">
-          <article class="popular__card swiper-slide">
-            <img src="<?= base_url("assets/customer/img/bonny.jpg"); ?>" alt="" class="popular__img">
-
-            <!-- <div class="popular__data">
-              <h2 class="popular__price">
-                <span>$</span>66,356
-              </h2>
-              <h3 class="popular__title">
-                Garden City Assat
-              </h3>
-              <p class="popular__description">
-                Street The Garden City Of Miraflores,
-                Lima - Peru Av. Sol #9876
-              </p>
-            </div> -->
-          </article>
-
-          <article class="popular__card swiper-slide">
-            <img src="<?= base_url("assets/customer/img/hidayah.jpg"); ?>" alt="" class="popular__img">
-
-            <!-- <div class="popular__data">
-              <h2 class="popular__price">
-                <span>$</span>66,356
-              </h2>
-              <h3 class="popular__title">
-                Garden City Assat
-              </h3>
-              <p class="popular__description">
-                Street The Garden City Of Miraflores,
-                Lima - Peru Av. Sol #9876
-              </p>
-            </div> -->
-          </article>
-
-          <article class="popular__card swiper-slide">
-            <img src="<?= base_url("assets/customer/img/lukas.png"); ?>" alt="" class="popular__img">
-
-            <!-- <div class="popular__data">
-              <h2 class="popular__price">
-                <span>$</span>66,356
-              </h2>
-              <h3 class="popular__title">
-                Garden City Assat
-              </h3>
-              <p class="popular__description">
-                Street The Garden City Of Miraflores,
-                Lima - Peru Av. Sol #9876
-              </p>
-            </div> -->
-          </article>
-
-          <!-- <article class="popular__card swiper-slide">
-            <img src="<?= base_url("assets/image/popular4.jpg"); ?>" alt="" class="popular__img">
-
-            <div class="popular__data">
-              <h2 class="popular__price">
-                <span>$</span>66,356
-              </h2>
-              <h3 class="popular__title">
-                Garden City Assat
-              </h3>
-              <p class="popular__description">
-                Street The Garden City Of Miraflores,
-                Lima - Peru Av. Sol #9876
-              </p>
-            </div>
-          </article>
-
-          <article class="popular__card swiper-slide">
-            <img src="<?= base_url("assets/image/popular5.jpg"); ?>" alt="" class="popular__img">
-
-            <div class="popular__data">
-              <h2 class="popular__price">
-                <span>$</span>66,356
-              </h2>
-              <h3 class="popular__title">
-                Garden City Assat
-              </h3>
-              <p class="popular__description">
-                Street The Garden City Of Miraflores,
-                Lima - Peru Av. Sol #9876
-              </p>
-            </div>
-          </article> -->
-        </div>
-
-          <div class="swiper-button-next">
-            <i class="bx bx-chevron-right"></i>
-          </div>
-          <div class="swiper-button-prev">
-            <i class="bx bx-chevron-left"></i>
-          </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- value -->
-  <section class="value section" id="value">
-    <div class="value__container container grid">
-        <div class="value__images">
-          <div class="value__orbe"></div>
-
-          <div class="value__img">
-            <img src="<?= base_url('assets/image/value2.png') ?>" alt="">
-          </div>
-        </div>
-
-        <div class="value__content">
-          <div class="value__data">
-            <span class="section__subtitle">Introduce Us</span>
-            <h2 class="section__title">
-              Jasa Pembuatan Dan Pengembangan Website<span>.</span>
-            </h2>
-            <p class="value__description">
-              Kami siap membantu anda dalam pembuatan website dari 0 ataupun dalam mengembangkan website anda. 100% Kami bertanggung jawab atas pembuatan website anda. Jadi tunggu apa lagi. Silahkan gunakan jasa kami.
-            </p>
-          </div>
-
-          <div class="value__accordion">
-            <div class="value__accordion-item">
-              <header class="value__accordion-header">
-                <i class='bx bxs-shield-x value__accordion-icon'></i>
-                <h3 class="value__accordion-title">
-                  Responsive, Harga Murah, Pembuatan Sesuai Permintaan
-                </h3>
-                <div class="value__accordion-arrow">
-                  <i class='bx bxs-down-arrow'></i>
+<!-- Navbar & Hero Start -->
+<div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <img src="<?= base_url('assets/logo/eresta_dev.png') ?>" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="<?= base_url('/') ?>" class="nav-item nav-link active">Home</a>
+                        <a href="<?= base_url('home/about') ?>" class="nav-item nav-link">About</a>
+                        <a href="<?= base_url('home/service') ?>" class="nav-item nav-link">Service</a>
+                        <a href="<?= base_url('home/project') ?>" class="nav-item nav-link">Project</a>
+                    </div>
+                    <a href="" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Get Started</a>
                 </div>
-              </header>
+            </nav>
 
-              <div class="value__accordion-content">
-                <p class="value__accordion-description">
-                  Kami menyediakan layanan untuk anda, dalam pembuatan Website
-                  sesuai dengan permintaan yang anda inginkan. Tampilan lebih responsive, harga bersahabat.
-                </p>
-              </div>
-            </div>
-
-            <div class="value__accordion-item">
-              <header class="value__accordion-header">
-                <i class="bx bxs-x-square"></i>
-                <h3 class="value__accordion-title">
-                  Prevent unstable prices
-                </h3>
-                <div class="value__accordion-arrow">
-                  <i class='bx bxs-down-arrow'></i>
+            <div class="container-xxl bg-primary hero-header">
+                <div class="container px-lg-5">
+                    <div class="row g-5 align-items-end">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <h1 class="text-white mb-4 animated slideInDown">Jasa Pengembangan Maupun Pembuatan Website & Android</h1>
+                            <p class="text-white pb-3 animated slideInDown">Perkenalkan, Kami Tim Eresta Developer Menawarkan Kalian Untuk Jasa Dalam Pembuatan, Pengembangan, Dan Custome Website Maupun Android, Sesuai Dengan Kebutuhan Anda</p>
+                            <a href="<?= base_url('user/about') ?>" class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Selengkapnya <span class="fa fa-arrow-right"></span></a>
+                            <a href="" class="btn btn-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Hubungi Kami <span class="fa fa-phone"></span></a>
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <img class="img-fluid animated zoomIn" src="<?= base_url('assets/logo/new_phone.png') ?>" alt="">
+                        </div>
+                    </div>
                 </div>
-              </header>
-
-              <div class="value__accordion-content">
-                <p class="value__accordion-description">
-                  Price we provides is the best for you,
-                  we guarantee no price changes on your property due to various unexpected costs that may come.
-                </p>
-              </div>
             </div>
+        </div>
+        <!-- Navbar & Hero End -->
 
-            <div class="value__accordion-item">
-              <header class="value__accordion-header">
-                <i class='bx bxs-check-square'></i>
-                <h3 class="value__accordion-title">
-                  Security of your data
-                </h3>
-                <div class="value__accordion-arrow">
-                  <i class='bx bxs-down-arrow'></i>
+<!-- Feature Start -->
+<div class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-4">
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="feature-item bg-light rounded text-center p-4">
+                            <i class="fa fa-3x fa-mail-bulk text-primary mb-4"></i>
+                            <h5 class="mb-3">Customer Care</h5>
+                            <p class="m-0">Kami siap membantu agar sesuai dengan ekspetasi anda, dalam membangun Website atau Android.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="feature-item bg-light rounded text-center p-4">
+                            <i class="fa fa-3x fa-search text-primary mb-4"></i>
+                            <h5 class="mb-3">SEO & Backlinks</h5>
+                            <p class="m-0">Tampilan menarik dan lebih responsive. Penempatan Link Sesuai Dengan Yang Anda Inginkan.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="feature-item bg-light rounded text-center p-4">
+                            <i class="fa fa-3x fa-laptop-code text-primary mb-4"></i>
+                            <h5 class="mb-3">Full Design & Development</h5>
+                            <p class="m-0">Sampaikan ide kalian untuk kebutuhan Website Atau Android Yang Anda Inginkan. Kami Siap Membantu.</p>
+                        </div>
+                    </div>
                 </div>
-              </header>
-
-              <div class="value__accordion-content">
-                <p class="value__accordion-description">
-                  Price we provides is the best for you,
-                  we guarantee no price changes on your property due to various unexpected costs that may come.
-                </p>
-              </div>
             </div>
+        </div>
+        <!-- Feature End -->
 
-            <div class="value__accordion-item">
-              <header class="value__accordion-header">
-                <i class='bx bxs-x-square'></i>
-                <h3 class="value__accordion-title">
-                  Best prices on the market
-                </h3>
-                <div class="value__accordion-arrow">
-                  <i class='bx bxs-down-arrow'></i>
+        <!-- Facts Start -->
+        <div class="container-xxl bg-primary fact py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
+                        <i class="fa fa-certificate fa-3x text-secondary mb-3"></i>
+                        <h1 class="text-white mb-2" data-toggle="counter-up">2</h1>
+                        <p class="text-white mb-0">Years Experience</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
+                        <i class="fa fa-users-cog fa-3x text-secondary mb-3"></i>
+                        <h1 class="text-white mb-2" data-toggle="counter-up">3</h1>
+                        <p class="text-white mb-0">Team ErestaDev</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
+                        <i class="fa fa-users fa-3x text-secondary mb-3"></i>
+                        <h1 class="text-white mb-2" data-toggle="counter-up">6</h1>
+                        <p class="text-white mb-0">Satisfied Clients</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
+                        <i class="fa fa-check fa-3x text-secondary mb-3"></i>
+                        <h1 class="text-white mb-2" data-toggle="counter-up">6</h1>
+                        <p class="text-white mb-0">Compleate Projects</p>
+                    </div>
                 </div>
-              </header>
-
-              <div class="value__accordion-content">
-                <p class="value__accordion-description">
-                  Price we provides is the best for you,
-                  we guarantee no price changes on your property due to various unexpected costs that may come.
-                </p>
-              </div>
             </div>
-          </div>
         </div>
-    </div>
-  </section>
+        <!-- Facts End -->
 
-  <!-- contact -->
-  <section class="contact section" id="contact">
-    <div class="contact__container container grid">
-      <div class="contact__images">
-        <div class="contact__orbe"></div>
 
-        <div class="contact__img">
-          <img src="<?= base_url("assets/image/contact.png"); ?>" alt="">
+        <!-- Service Start -->
+        <div class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="section-title text-secondary justify-content-center"><span></span>Our Services<span></span></p>
+                    <h1 class="text-center mb-5">Solusi Apa Yang Kami Berikan Kepada Anda</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item d-flex flex-column text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa fa-laptop-code fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Web Design</h5>
+                            <p class="m-0">Kami akan memberikan tampilan yang menarik dan responsive, bertujuan agar website semakin berkembang dan user friendly.</p>
+                            <a class="btn btn-square" href=""><i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item d-flex flex-column text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa fa-thumbs-up fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Full Developer</h5>
+                            <p class="m-0">Kami siap membantu dan bertanggung jawab atas project anda. Mulai dari 0 sampai selesai, sesuai dengan kebutuhan anda.</p>
+                            <a class="btn btn-square" href=""><i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item d-flex flex-column text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fab fa-android fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">App Development</h5>
+                            <p class="m-0">Kami siap melayani pembuatan aplikasi untuk bisnis anda. Agar bisnis anda semakin berkembang. Tentunya 100% Kami siap membantu</p>
+                            <a class="btn btn-square" href=""><i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+        <!-- Service End -->
 
-      <div class="contact__content">
-        <div class="contact__data">
-          <span class="section__subtitle">Contact Us</span>
-          <h2 class="section__title">
-            Easy to Contact us<span>.</span>
-          </h2>
-          <p class="contact__description">
-            Is there a problem finding your dream home? Need a on residential issues? just contact us.
-          </p>
+
+        <!-- Newsletter Start -->
+        <div class="container-xxl bg-primary newsletter py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 text-center">
+                        <p class="section-title text-white justify-content-center"><span></span>Newsletter<span></span></p>
+                        <h1 class="text-center text-white mb-4">Silahkan Klik Dibawah Ini Untuk Menghubungi Kami.</h1>
+                        <a href="https://wa.me/62895337261274"><img src="<?= base_url('assets/logo/wa_2.png'); ?>"></a>
+                    </div>
+                </div>
+            </div>
         </div>
+        <!-- Newsletter End -->
 
-        <div class="contact__card">
-          <div class="contact__card-box">
-            <div class="contact__card-info">
-              <i class="bx bxs-phone-call"></i>
-              <div>
-                <h3 class="contact__card-title">
-                  Call
-                </h3>
-                <p class="contact__card-description">
-                  022.321.165.19
-                </p>
-              </div>
+
+        <!-- Projects Start -->
+        <div class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="section-title text-secondary justify-content-center"><span></span>Our Projects<span></span></p>
+                    <h1 class="text-center mb-5">Berikut Beberapa Project Yang Kami Jual</h1>
+                </div>
+                <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-12 text-center">
+                        <ul class="list-inline mb-5" id="portfolio-flters">
+                            <li class="mx-2 active" data-filter="*">All</li>
+                            <li class="mx-2" data-filter=".first">Website</li>
+                            <li class="mx-2" data-filter=".second">Application</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row g-4 portfolio-container">
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="<?= base_url('assets/image/example/img/portfolio-1.jpg') ?>" alt="">
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="<?= base_url('assets/image/example/img/portfolio-1.jpg') ?>" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="bg-light p-4">
+                                <p class="text-primary fw-medium mb-2">Algoritma K-Means</p>
+                                <h5 class="lh-base mb-0">Website Perhitungan Algoritma K-Means</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <button class="button contact__card-button">
-              Call Now
-            </button>
-          </div>
-          
-          <div class="contact__card-box">
-            <div class="contact__card-info">
-              <i class="bx bxs-message-rounded-dots"></i>
-              <div>
-                <h3 class="contact__card-title">
-                  Chat
-                </h3>
-                <p class="contact__card-description">
-                  022.321.165.19
-                </p>
-              </div>
-            </div>
-
-            <button class="button contact__card-button">
-              Chat Now
-            </button>
-          </div>
-          
-          <div class="contact__card-box">
-            <div class="contact__card-info">
-              <i class="bx bxs-video"></i>
-              <div>
-                <h3 class="contact__card-title">
-                  Video Call
-                </h3>
-                <p class="contact__card-description">
-                  022.321.165.19
-                </p>
-              </div>
-            </div>
-
-            <button class="button contact__card-button">
-              Video Call Now
-            </button>
-          </div>
-
-          <div class="contact__card-box">
-            <div class="contact__card-info">
-              <i class="bx bxs-envelope"></i>
-              <div>
-                <h3 class="contact__card-title">
-                  Message
-                </h3>
-                <p class="contact__card-description">
-                  022.321.165.19
-                </p>
-              </div>
-            </div>
-
-            <button class="button contact__card-button">
-              Message Now
-            </button>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
+        <!-- Projects End -->
 
-  <!-- subcribe -->
-  <section class="subscribe section">
-    <div class="subscribe__container container">
-      <h1 class="subscribe__title">
-        Get Started with Holux
-      </h1>
-      <p class="subscribe__description">
-        Subscribe and find super attractive price quotes from us, Find your residence soon
-      </p>
-      <a href="#" class="button subscribe__button">
-        Get Started
-      </a>
-    </div>
-  </section>
 
-</main>
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <p class="section-title text-secondary justify-content-center"><span></span>Testimonial<span></span></p>
+                <h1 class="text-center mb-5">What Say Our Clients!</h1>
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="testimonial-item bg-light rounded my-4">
+                        <img src="<?= base_url('assets/customer/img/bonny2.jpg'); ?>">
+                        <div class="d-flex align-items-center">
+                            <div class="ps-4">
+                                <h5 class="mb-1">Bonny - Kmeans(Manokwari)</h5>
+                                <span>Mahasiswa</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded my-4">
+                        <img src="<?= base_url('assets/customer/img/hidayah2.jpg'); ?>">
+                        <div class="d-flex align-items-center">
+                            <div class="ps-4">
+                                <h5 class="mb-1">Hidayah - Kmeans(Makasar)</h5>
+                                <span>Mahasiswa</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded my-4">
+                        <img src="<?= base_url('assets/customer/img/lukas2.jpg'); ?>">
+                        <div class="d-flex align-items-center">
+                            <div class="ps-4">
+                                <h5 class="mb-1">Lukas - Kmeans(Papua)</h5>
+                                <span>Bisnis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+        <!-- Team Start -->
+        <div class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="section-title text-secondary justify-content-center"><span></span>Our Team<span></span></p>
+                    <h1 class="text-center mb-5">Our Team Members</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item bg-light rounded">
+                            <div class="text-center border-bottom p-4">
+                                <img class="img-fluid rounded-circle mb-4" src="<?= base_url('assets/member/kaleb.jpg'); ?>" alt="">
+                                <h5>Kaleb Molewe S.Kom</h5>
+                                <span>CEO & Founder</span>
+                            </div>
+                            <div class="d-flex justify-content-center p-4">
+                                <a class="btn btn-square mx-1" href="https://web.facebook.com/profile.php?id=100085414869298"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href="https://twitter.com/MoleweKaleb"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href="https://www.instagram.com/kalebmolewe/"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" href="https://www.linkedin.com/in/kaleb-molewe-487a39166/"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item bg-light rounded">
+                            <div class="text-center border-bottom p-4">
+                                <img class="img-fluid rounded-circle mb-4" src="img/team-2.jpg" alt="">
+                                <h5>Jessica Brown</h5>
+                                <span>Web Designer</span>
+                            </div>
+                            <div class="d-flex justify-content-center p-4">
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="team-item bg-light rounded">
+                            <div class="text-center border-bottom p-4">
+                                <img class="img-fluid rounded-circle mb-4" src="img/team-3.jpg" alt="">
+                                <h5>Tony Johnson</h5>
+                                <span>SEO Expert</span>
+                            </div>
+                            <div class="d-flex justify-content-center p-4">
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->

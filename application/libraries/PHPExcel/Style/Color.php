@@ -332,12 +332,12 @@ class PHPExcel_Style_Color extends PHPExcel_Style_Supervisor implements PHPExcel
             $blue = 255;
         }
 
-        $rgb = strtoupper(
-            str_pad(dechex($red), 2, '0', 0) .
-            str_pad(dechex($green), 2, '0', 0) .
-            str_pad(dechex($blue), 2, '0', 0)
-        );
-        return (($rgba) ? 'FF' : '') . $rgb;
+        // $rgb = strtoupper(
+        //     str_pad(dechex($red), 2, '0', 0) .
+        //     str_pad(dechex($green), 2, '0', 0) .
+        //     str_pad(dechex($blue), 2, '0', 0)
+        // );
+        // return (($rgba) ? 'FF' : '') . $rgb;
     }
 
     /**

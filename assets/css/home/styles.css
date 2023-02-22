@@ -747,6 +747,10 @@ body.dark-theme{
     background-color: var(--first-color);
   }
 
+  .subscribe__input{
+    size: 100px;
+  }
+
 /* footer */
   .footer__container{
     row-gap: 2.5rem;

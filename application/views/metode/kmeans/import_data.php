@@ -10,9 +10,14 @@
         <div class="row" style="margin-top: 30px;">
           <div class="col-md-4 col-md-offset-3">
             <h3>Import Data</h3>
-            <?php if(!empty($this->session->flashdata('status'))){ ?>
-            <div class="alert alert-info" role="alert"><?= $this->session->flashdata('status'); ?></div>
-            <?php } ?>
+            <?php
+            $message = $this->session->flashdata('message');
+            if (isset($message)) {
+                echo '<div class="alert alert-info">' . $message . '</div>';
+                $this->session->unset_userdata('message');
+            }
+
+            ?>
               <form action="<?= base_url('metode/kmeans/data/import_excel'); ?>" method="post" enctype="multipart/form-data">
                 <div class="form-group">
                   <label>Pilih File Excel</label>
