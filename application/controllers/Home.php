@@ -13,4 +13,12 @@ class Home extends CI_Controller {
 
   }
 
+  public function about(){
+    $data['title'] = "About";
+
+    $this->load->view('home/layout/header', $data);
+    $this->load->view('home/v_about');
+    $this->load->view('home/layout/footer');
+  }
+
 }

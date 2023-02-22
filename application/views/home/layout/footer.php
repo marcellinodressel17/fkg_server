@@ -13,7 +13,7 @@
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <p class="section-title text-white h5 mb-4">Quick Link<span></span></p>
-                        <a class="btn btn-link" href="<?= base_url('/') ?>">About Us</a>
+                        <a class="btn btn-link" href="<?= base_url('home/about') ?>">About Us</a>
                         <a class="btn btn-link" href="<?= base_url('home/service') ?>">Service</a>
                         <a class="btn btn-link" href="<?= base_url('home/project') ?>">Project</a>
                     </div>
