@@ -39,7 +39,7 @@
                 </thead>
                 <tbody>
                     <?php $no = 1;
-                    foreach ($data_kmeans->result() as $value) : ?>
+                    foreach ($data->result() as $value) : ?>
                         <tr>
                             <td class="text-center">
                                 <input type="checkbox" name="checkbox_value[]" value="<?= $value->iddata ?>">

@@ -14,7 +14,7 @@
                         <a href="<?= base_url('home/service') ?>" class="nav-item nav-link">Service</a>
                         <a href="<?= base_url('home/project') ?>" class="nav-item nav-link">Project</a>
                     </div>
-                    <a href="" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Get Started</a>
+                    <a href="https://wa.me/62895337261274?text=Halo%20Ada yang bisa kami bantu?%20Silahkan hubungi dinomor ini untuk informasi lebih lanjut.%20" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Get Started</a>
                 </div>
             </nav>
 
@@ -24,8 +24,8 @@
                         <div class="col-lg-6 text-center text-lg-start">
                             <h1 class="text-white mb-4 animated slideInDown">Jasa Pengembangan Maupun Pembuatan Website & Android</h1>
                             <p class="text-white pb-3 animated slideInDown">Perkenalkan, Kami Tim Eresta Developer Menawarkan Kalian Untuk Jasa Dalam Pembuatan, Pengembangan, Dan Custome Website Maupun Android, Sesuai Dengan Kebutuhan Anda</p>
-                            <a href="<?= base_url('user/about') ?>" class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Selengkapnya <span class="fa fa-arrow-right"></span></a>
-                            <a href="" class="btn btn-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Hubungi Kami <span class="fa fa-phone"></span></a>
+                            <a href="<?= base_url('home/about') ?>" class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Selengkapnya <span class="fa fa-arrow-right"></span></a>
+                            <a href="https://wa.me/62895337261274?text=Halo%20Ada yang bisa kami bantu?%20Silahkan hubungi dinomor ini untuk informasi lebih lanjut.%20" class="btn btn-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Hubungi Kami <span class="fa fa-phone"></span></a>
                         </div>
                         <div class="col-lg-6 text-center text-lg-start">
                             <img class="img-fluid animated zoomIn" src="<?= base_url('assets/logo/new_phone.png') ?>" alt="">
@@ -77,7 +77,7 @@
                     </div>
                     <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
                         <i class="fa fa-users-cog fa-3x text-secondary mb-3"></i>
-                        <h1 class="text-white mb-2" data-toggle="counter-up">3</h1>
+                        <h1 class="text-white mb-2" data-toggle="counter-up">1</h1>
                         <p class="text-white mb-0">Team ErestaDev</p>
                     </div>
                     <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
@@ -111,7 +111,7 @@
                             </div>
                             <h5 class="mb-3">Web Design</h5>
                             <p class="m-0">Kami akan memberikan tampilan yang menarik dan responsive, bertujuan agar website semakin berkembang dan user friendly.</p>
-                            <a class="btn btn-square" href=""><i class="fa fa-arrow-right"></i></a>
+                            <a class="btn btn-square" href="<?= base_url('home/about'); ?>"><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -121,7 +121,7 @@
                             </div>
                             <h5 class="mb-3">Full Developer</h5>
                             <p class="m-0">Kami siap membantu dan bertanggung jawab atas project anda. Mulai dari 0 sampai selesai, sesuai dengan kebutuhan anda.</p>
-                            <a class="btn btn-square" href=""><i class="fa fa-arrow-right"></i></a>
+                            <a class="btn btn-square" href="<?= base_url('home/about'); ?>"><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -131,7 +131,7 @@
                             </div>
                             <h5 class="mb-3">App Development</h5>
                             <p class="m-0">Kami siap melayani pembuatan aplikasi untuk bisnis anda. Agar bisnis anda semakin berkembang. Tentunya 100% Kami siap membantu</p>
-                            <a class="btn btn-square" href=""><i class="fa fa-arrow-right"></i></a>
+                            <a class="btn btn-square" href="<?= base_url('home/about'); ?>"><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -147,7 +147,7 @@
                     <div class="col-lg-7 text-center">
                         <p class="section-title text-white justify-content-center"><span></span>Newsletter<span></span></p>
                         <h1 class="text-center text-white mb-4">Silahkan Klik Dibawah Ini Untuk Menghubungi Kami.</h1>
-                        <a href="https://wa.me/62895337261274"><img src="<?= base_url('assets/logo/wa_2.png'); ?>"></a>
+                        <a class="section-title text-white justify-content-center" href="https://wa.me/62895337261274"><img src="<?= base_url('assets/logo/wa_1.png'); ?>" width="400px"></a>
                     </div>
                 </div>
             </div>
@@ -178,12 +178,12 @@
                                 <img class="img-fluid w-100" src="<?= base_url('assets/image/example/img/portfolio-1.jpg') ?>" alt="">
                                 <div class="portfolio-overlay">
                                     <a class="btn btn-square btn-outline-light mx-1" href="<?= base_url('assets/image/example/img/portfolio-1.jpg') ?>" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href="<?= base_url('metode/kmeans/dashboard'); ?>"><i class="fa fa-link"></i></a>
                                 </div>
                             </div>
                             <div class="bg-light p-4">
                                 <p class="text-primary fw-medium mb-2">Algoritma K-Means</p>
-                                <h5 class="lh-base mb-0">Website Perhitungan Algoritma K-Means</a>
+                                <h5 class="lh-base mb-0">Demo Website Perhitungan Algoritma K-Means</a>
                             </div>
                         </div>
                     </div>
@@ -241,6 +241,21 @@
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <!-- <div class="team-item bg-light rounded">
+                            <div class="text-center border-bottom p-4">
+                                <img class="img-fluid rounded-circle mb-4" src="<?= base_url('assets/member/kaleb.jpg'); ?>" alt="">
+                                <h5>Kaleb Molewe S.Kom</h5>
+                                <span>CEO & Founder</span>
+                            </div>
+                            <div class="d-flex justify-content-center p-4">
+                                <a class="btn btn-square mx-1" href="https://web.facebook.com/profile.php?id=100085414869298"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href="https://twitter.com/MoleweKaleb"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href="https://www.instagram.com/kalebmolewe/"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" href="https://www.linkedin.com/in/kaleb-molewe-487a39166/"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item bg-light rounded">
                             <div class="text-center border-bottom p-4">
                                 <img class="img-fluid rounded-circle mb-4" src="<?= base_url('assets/member/kaleb.jpg'); ?>" alt="">
@@ -255,23 +270,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="team-item bg-light rounded">
-                            <div class="text-center border-bottom p-4">
-                                <img class="img-fluid rounded-circle mb-4" src="img/team-2.jpg" alt="">
-                                <h5>Jessica Brown</h5>
-                                <span>Web Designer</span>
-                            </div>
-                            <div class="d-flex justify-content-center p-4">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item bg-light rounded">
+                        <!-- <div class="team-item bg-light rounded">
                             <div class="text-center border-bottom p-4">
                                 <img class="img-fluid rounded-circle mb-4" src="img/team-3.jpg" alt="">
                                 <h5>Tony Johnson</h5>
@@ -283,7 +283,7 @@
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

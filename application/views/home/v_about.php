@@ -14,7 +14,7 @@
                         <a href="<?= base_url('home/service') ?>" class="nav-item nav-link">Service</a>
                         <a href="<?= base_url('home/project') ?>" class="nav-item nav-link">Project</a>
                     </div>
-                    <a href="" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Get Started</a>
+                    <a href="https://wa.me/62895337261274?text=Halo%20Ada yang bisa kami bantu?%20Silahkan hubungi dinomor ini untuk informasi lebih lanjut.%20" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Get Started</a>
                 </div>
             </nav>
 
@@ -125,7 +125,7 @@
                     </div>
                     <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
                         <i class="fa fa-users-cog fa-3x text-secondary mb-3"></i>
-                        <h1 class="text-white mb-2" data-toggle="counter-up">3</h1>
+                        <h1 class="text-white mb-2" data-toggle="counter-up">1</h1>
                         <p class="text-white mb-0">Team ErestaDev</p>
                     </div>
                     <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
@@ -153,6 +153,21 @@
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <!-- <div class="team-item bg-light rounded">
+                            <div class="text-center border-bottom p-4">
+                                <img class="img-fluid rounded-circle mb-4" src="<?= base_url('assets/member/kaleb.jpg'); ?>" alt="">
+                                <h5>Kaleb Molewe S.Kom</h5>
+                                <span>CEO & Founder</span>
+                            </div>
+                            <div class="d-flex justify-content-center p-4">
+                                <a class="btn btn-square mx-1" href="https://web.facebook.com/profile.php?id=100085414869298"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href="https://twitter.com/MoleweKaleb"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href="https://www.instagram.com/kalebmolewe/"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" href="https://www.linkedin.com/in/kaleb-molewe-487a39166/"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item bg-light rounded">
                             <div class="text-center border-bottom p-4">
                                 <img class="img-fluid rounded-circle mb-4" src="<?= base_url('assets/member/kaleb.jpg'); ?>" alt="">
@@ -167,23 +182,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="team-item bg-light rounded">
-                            <div class="text-center border-bottom p-4">
-                                <img class="img-fluid rounded-circle mb-4" src="img/team-2.jpg" alt="">
-                                <h5>Jessica Brown</h5>
-                                <span>Web Designer</span>
-                            </div>
-                            <div class="d-flex justify-content-center p-4">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item bg-light rounded">
+                        <!-- <div class="team-item bg-light rounded">
                             <div class="text-center border-bottom p-4">
                                 <img class="img-fluid rounded-circle mb-4" src="img/team-3.jpg" alt="">
                                 <h5>Tony Johnson</h5>
@@ -195,7 +195,7 @@
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
