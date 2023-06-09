@@ -21,7 +21,7 @@
                         <p class="section-title text-white h5 mb-4">Gallery<span></span></p>
                         <div class="row g-2">
                             <div class="col-4">
-                                <img class="img-fluid" src="<?= base_url('assets/image/example/img/portfolio-1.jpg') ?>" alt="Image">
+                                <img class="img-fluid" src="<?= base_url('assets/image/example/img/vaksinasi.png') ?>" alt="Image">
                             </div>
                         </div>
                     </div>

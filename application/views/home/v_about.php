@@ -76,7 +76,7 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <p class="section-title text-secondary">About Us<span></span></p>
                         <h1 class="mb-5">Team kami siap membantu untuk mengembangkan website anda.</h1>
-                        <p class="mb-4">Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit clita duo justo eirmod magna dolore erat amet</p>
+                        <p class="mb-4">Kami siap membantu kalian, untuk membangun, ataupun mengembankan website yang kalian inginkan. Mulai dari 0 sampai project kalian jadi, itu adalah tanggung jawab kami.</p>
                         <div class="skill mb-4">
                             <div class="d-flex justify-content-between">
                                 <p class="mb-2">Full Developer</p>
