@@ -178,7 +178,7 @@
                                 <img class="img-fluid w-100" src="<?= base_url('assets/image/example/img/vaksinasi.png') ?>" alt="">
                                 <div class="portfolio-overlay">
                                     <a class="btn btn-square btn-outline-light mx-1" href="<?= base_url('assets/image/example/img/vaksinasi.png') ?>" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                    <!-- <a class="btn btn-square btn-outline-light mx-1" href="<?= base_url('metode/kmeans/dashboard'); ?>"><i class="fa fa-link"></i></a> -->
+                                    <a class="btn btn-square btn-outline-light mx-1" href="https://youtu.be/UzPXkglehVs?si=Z7i2FfHS1rf-xWB1"><i class="fa fa-link"></i></a>
                                 </div>
                             </div>
                             <div class="bg-light p-4">
