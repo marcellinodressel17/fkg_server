@@ -9,8 +9,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav mx-auto py-0">
-                        <a href="<?= base_url('/') ?>" class="nav-item nav-link active">Home</a>
-                        <a href="<?= base_url('home/about') ?>" class="nav-item nav-link">About</a>
+                        <a href="<?= base_url('/') ?>" class="nav-item nav-link active">Homesssss</a>
+                        <a href="<?= base_url('home/about') ?>" class="nav-item nav-link">Aboutssss</a>
                         <a href="<?= base_url('home/service') ?>" class="nav-item nav-link">Service</a>
                         <a href="<?= base_url('home/project') ?>" class="nav-item nav-link">Project</a>
                     </div>
