@@ -14,7 +14,7 @@
                         <a href="<?= base_url('home/service') ?>" class="nav-item nav-link">Service</a>
                         <a href="<?= base_url('home/project') ?>" class="nav-item nav-link">Project</a>
                     </div>
-                    <a href="https://wa.me/62895337261274?text=Halo%20Ada yang bisa kami bantu?%20Silahkan hubungi dinomor ini untuk informasi lebih lanjut.%20" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Get Started</a>
+                    <a href="" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Registrasi Now</a>
                 </div>
             </nav>
 
@@ -72,7 +72,7 @@
                 <div class="row g-4">
                     <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
                         <i class="fa fa-certificate fa-3x text-secondary mb-3"></i>
-                        <h1 class="text-white mb-2" data-toggle="counter-up">1</h1>
+                        <h1 class="text-white mb-2" data-toggle="counter-up">2</h1>
                         <p class="text-white mb-0">Years Experience</p>
                     </div>
                     <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
@@ -82,7 +82,7 @@
                     </div>
                     <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
                         <i class="fa fa-users fa-3x text-secondary mb-3"></i>
-                        <h1 class="text-white mb-2" data-toggle="counter-up">6</h1>
+                        <h1 class="text-white mb-2" data-toggle="counter-up">7</h1>
                         <p class="text-white mb-0">Satisfied Clients</p>
                     </div>
                     <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">

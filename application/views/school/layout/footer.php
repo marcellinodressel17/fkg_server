@@ -1,56 +1,98 @@
-<!-- jquery
-		============================================ -->
-        <script src="<?= base_url('/assets/school/js/vendor/jquery-1.12.4.min.js') ?>"></script>
-    <!-- bootstrap JS
-		============================================ -->
-    <script src="<?= base_url('/assets/school/js/bootstrap.min.js') ?>"></script>
-    <!-- wow JS
-		============================================ -->
-    <script src="<?= base_url('/assets/school/js/wow.min.js') ?>"></script>
-    <!-- price-slider JS
-		============================================ -->
-    <script src="<?= base_url('/assets/school/js/jquery-price-slider.js') ?>"></script>
-    <!-- meanmenu JS
-		============================================ -->
-    <script src="<?= base_url('/assets/school/js/jquery.meanmenu.js') ?>"></script>
-    <!-- owl.carousel JS
-		============================================ -->
-    <script src="<?= base_url('/assets/school/js/owl.carousel.min.js') ?>"></script>
-    <!-- sticky JS
-		============================================ -->
-    <script src="<?= base_url('/assets/school/js/jquery.sticky.js') ?>"></script>
-    <!-- scrollUp JS
-		============================================ -->
-    <script src="<?= base_url('/assets/school/js/jquery.scrollUp.min.js') ?>"></script>
-    <!-- mCustomScrollbar JS
-		============================================ -->
-    <script src="<?= base_url('/assets/school/js/scrollbar/jquery.mCustomScrollbar.concat.min.js') ?>"></script>
-    <script src="<?= base_url('/assets/school/js/scrollbar/mCustomScrollbar-active.js') ?>"></script>
-    <!-- metisMenu JS
-		============================================ -->
-    <script src="<?= base_url('/assets/school/js/metisMenu/metisMenu.min.js') ?>"></script>
-    <script src="<?= base_url('/assets/school/js/metisMenu/metisMenu-active.js') ?>"></script>
-    <!-- sparkline JS
-		============================================ -->
-    <script src="<?= base_url('/assets/school/js/sparkline/jquery.sparkline.min.js') ?>"></script>
-    <script src="<?= base_url('/assets/school/js/sparkline/jquery.charts-sparkline.js') ?>"></script>
-    <!-- calendar JS
-		============================================ -->
-    <script src="<?= base_url('/assets/school/js/calendar/moment.min.js') ?>"></script>
-    <script src="<?= base_url('/assets/school/js/calendar/fullcalendar.min.js') ?>"></script>
-    <script src="<?= base_url('/assets/school/js/calendar/fullcalendar-active.js') ?>"></script>
-	<!-- float JS
-		============================================ -->
-    <script src="<?= base_url('/assets/school/js/flot/jquery.flot.js') ?>"></script>
-    <script src="<?= base_url('/assets/school/js/flot/jquery.flot.resize.js') ?>"></script>
-    <script src="<?= base_url('/assets/school/js/flot/curvedLines.js') ?>"></script>
-    <script src="<?= base_url('/assets/school/js/flot/flot-active.js') ?>"></script>
-    <!-- plugins JS
-		============================================ -->
-    <script src="<?= base_url('/assets/school/js/plugins.js') ?>"></script>
-    <!-- main JS
-		============================================ -->
-    <script src="<?= base_url('/assets/school/js/main.js') ?>"></script>
-</body>
+<script type="text/javascript">
+    let arrow = document.querySelectorAll(".arrow");
+    for (var i = 0; i < arrow.length; i++) {
+        arrow[i].addEventListener("click", (e) => {
+            let arrowParent = e.target.parentElement.parentElement; //selecting main parent of arrow
+            arrowParent.classList.toggle("showMenu");
+        });
+    }
+    let sidebar = document.querySelector(".sidebar");
+    let sidebarBtn = document.querySelector(".bx-menu");
+    console.log(sidebarBtn);
+    sidebarBtn.addEventListener("click", () => {
+        sidebar.classList.toggle("close");
+    });
+
+    $(document).ready(function() {
+        $(".preloader").fadeOut();
+    })
+
+    //get lesson
+    $(document).ready(function() {
+        $("#idlesson").select2({
+            ajax: {
+                url: '<?= base_url('/project/school/administrator/schedule_employee/getdatalesson'); ?>',
+                type: "POST",
+                dataType: 'json',
+                delay: 200,
+                data: function(params){
+                    return {
+                        searchTerm: params.term
+                    };
+                },
+                processResults: function(response){
+                    return {
+                        results: response
+                    };
+                },
+                cache:true
+            }
+        });
+    });
+
+    //get user
+    $('#idlesson').change(function() {
+        var id_lesson = $("#idlesson").val();
+        $("#iduser").select2({
+            ajax: {
+                url: '<?= base_url('/project/school/administrator/schedule_employee/getdatauser/'); ?>' + id_lesson,
+                type: "POST",
+                dataType: 'JSON',
+                delay: 200,
+                data: function(params) {
+                    return{
+                        searchTerm: params.term
+                    };
+                },
+                processResults: function(response) {
+                    return {
+                        results: response
+                    };
+                },
+                cache: true
+            }
+        });
+    });
+
+    $('.btn-role').on('click', function(e){
+        var id = e.target.dataset.id;
+        // show_loading()
+        $.ajax({
+            method: "POST",
+            url:    "<?= base_url('/project/school/administrator/access/edit_access/') ?>",
+            data: "idrole"+id,
+            success: function(response){
+                // hide_loading()
+                $('.tampil-modal').html(response);
+                $('.modal-action').modal({
+                    backdrop:'static',
+                    keyboard:false
+                });
+            }
+
+            // /project/school/administrator/access/edit_access/
+        });
+    });
+
+</script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#datatable').DataTable();
+        });
+    </script> -->
+  </body>
 
 </html>
